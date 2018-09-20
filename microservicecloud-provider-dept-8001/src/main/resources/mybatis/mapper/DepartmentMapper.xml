@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.taboo.springcloud.mapper.DepartmentMapper">
+
+    <select id="findById" resultType="Department" parameterType="Integer">
+		select id,departmentName,dbSource from department where id=#{id};
+	</select>
+    <select id="findAll" resultType="Department">
+		select id,departmentName,dbSource from department;
+	</select>
+    <insert id="addDepartment" parameterType="Department">
+		INSERT INTO department(departmentName,dbSource) VALUES(#{departmentName},DATABASE());
+	</insert>
+
+</mapper>
