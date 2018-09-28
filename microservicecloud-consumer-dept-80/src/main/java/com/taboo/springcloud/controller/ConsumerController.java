@@ -1,6 +1,7 @@
 package com.taboo.springcloud.controller;
 
 import com.taboo.springcloud.entities.Department;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +13,12 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 @RestController
+@Log4j2
 public class ConsumerController {
+
+/*
+    private final transient Logger logger = LoggerFactory.getLogger(ConsumerController.class);
+*/
     @Autowired
     RestTemplate restTemplate;
     private static final String REST_URL_SUFFIX = "http://localhost:8001";
@@ -26,11 +32,13 @@ public class ConsumerController {
     public boolean addDepartment(Department department) {
         ResponseEntity<Boolean> booleanResponseEntity = restTemplate.postForEntity(REST_URL_SUFFIX + "/department/add", department, Boolean.class);
         return booleanResponseEntity.getBody();
-        /*
-         * Boolean postForObject = restTemplate.postForObject(REST_URL_SUFFIX + "/department/add", department, Boolean.class);
-         * return postForObject;
-         * */
 
+    }
+
+    public boolean addDepartment(Department department,String notes){
+        Boolean postForObject = restTemplate.postForObject(REST_URL_SUFFIX + "/department/add", department, Boolean.class);
+        System.out.println(notes);
+        return postForObject;
     }
 
     @GetMapping("/consumer/department/{id}")
