@@ -9,4 +9,14 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+management:
+  security:
+    enabled: false
+
+info:
+  app.name: taboo-clouddemo-eureka
+  app.version: 1.0.0
+  app.location: 0571
+  company.name: asiainfo
+  department.name: SRD
 
