@@ -47,12 +47,17 @@ public class ConsumerController {
         return restTemplateForObject;
     }
 
-    @SuppressWarnings("")
+    @SuppressWarnings("unchecked")
     @GetMapping("/consumer/department/list")
     public List<Department> list(){
         List restTemplateForObject = restTemplate.getForObject(REST_URL_SUFFIX + "/department/all", List.class);
         return restTemplateForObject;
 
+    }
+
+    @GetMapping("/consumer/department/discovery")
+    public Object discovery(){
+        return restTemplate.getForObject(REST_URL_SUFFIX.concat("/department/discovery"),Object.class);
     }
 }
 
