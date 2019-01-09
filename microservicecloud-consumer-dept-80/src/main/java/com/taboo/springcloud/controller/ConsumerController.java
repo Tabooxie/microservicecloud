@@ -21,7 +21,7 @@ public class ConsumerController {
 */
     @Autowired
     RestTemplate restTemplate;
-    private static final String REST_URL_SUFFIX = "http://localhost:8001";
+    private static final String REST_URL_SUFFIX = "MICROSERVICECLOUDDEPT";
 
     /**
      * 使用 使用restTemplate访问restful接口非常的简单粗暴无脑。 (url, requestMap,
