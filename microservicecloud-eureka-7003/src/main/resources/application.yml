@@ -1,6 +1,7 @@
 server:
   port: 7003
 
+
 eureka:
   instance:
     hostname: eureka7003.com
@@ -21,3 +22,6 @@ info:
   app.location: 0571
   company.name: asiainfo
   department.name: SRD
+security:
+  basic:
+    enabled: false
