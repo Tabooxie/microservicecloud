@@ -34,7 +34,7 @@ public class DepartmentController {
         return departmentService.get(id);
     }
 
-    @GetMapping("/department/all")
+    @GetMapping("/department/list")
     public List<Department> list(){
         return departmentService.list();
     }
@@ -44,7 +44,7 @@ public class DepartmentController {
         List<String> list  = discoveryClient.getServices();
         logger.error("discoveryClient.getServices():".concat(list.toString()));
 
-        List<ServiceInstance> srvList = discoveryClient.getInstances("microservicecloud-dept");
+        List<ServiceInstance> srvList = discoveryClient.getInstances("microserviceclouddept");
         logger.error("discoveryClient.getInstances():".concat(srvList.toString()));
         for (ServiceInstance serviceInstance : srvList){
             logger.error(serviceInstance.getServiceId());
