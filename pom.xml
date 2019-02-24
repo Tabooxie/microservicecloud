@@ -14,7 +14,7 @@
         <module>microservicecloud-eureka-7001</module>
         <module>microservicecloud-eureka-7002</module>
         <module>microservicecloud-eureka-7003</module>
-        <module>microservicecloud-consumer-dept-feign</module>
+        <module>microservicecloud-hystrix</module>
     </modules>
     <packaging>pom</packaging>
 

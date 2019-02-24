@@ -13,6 +13,7 @@
         <module name="microservicecloud-eureka-7001" />
         <module name="microservicecloud-eureka-7002" />
         <module name="microservicecloud-eureka-7003" />
+        <module name="microservicecloud-hystrix" />
         <module name="microservicecloud-provider-dept-8001" />
       </profile>
     </annotationProcessing>
