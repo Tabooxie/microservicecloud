@@ -15,6 +15,7 @@
         <module>microservicecloud-eureka-7002</module>
         <module>microservicecloud-eureka-7003</module>
         <module>microservicecloud-hystrix</module>
+        <module>microservicecloud-hystrixdashboard</module>
     </modules>
     <packaging>pom</packaging>
 

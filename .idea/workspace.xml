@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8604ac-5c77-4feb-8011-c021ce19386b" name="Default" comment="设置actuator模块">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-hystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-hystrix/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/MicroservicecloudHystrixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/MicroservicecloudHystrixApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-hystrix/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/microservicecloud-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,6 +17,8 @@
     <ignored path="$PROJECT_DIR$/microservicecloud-eureka-7003/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/hystrixdashboard/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-hystrixdashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,47 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MicroservicecloudConsumerDeptFeignApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/taboo/springcloud/MicroservicecloudConsumerDeptFeignApplication.java">
+      <file leaf-file-name="DepartmentClientService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MicroservicecloudConsumerDept80Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/taboo/springcloud/MicroservicecloudConsumerDept80Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnableHystrix.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MicroservicecloudHystrixApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/MicroservicecloudHystrixApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="121">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,38 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="9" />
+              <caret line="24" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeignClientEncodingProperties.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/encoding/FeignClientEncodingProperties.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-hystrixdashboard/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-cloud-starter-feign-1.3.1.RELEASE.pom" pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-feign/1.3.1.RELEASE/spring-cloud-starter-feign-1.3.1.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="319">
+              <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -115,8 +61,78 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="311">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/entities/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/entities/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcurrentHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7325">
+              <caret line="812" column="21" selection-start-line="812" selection-start-column="12" selection-end-line="812" selection-end-column="21" />
+              <folding>
+                <element signature="e#30335#30336#0" expanded="true" />
+                <element signature="e#30400#30401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentClientServiceFallbackFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientServiceFallbackFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,7 +204,6 @@
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/taboo/springcloud/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/taboo/springcloud/controller/ConsumerFeignController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/taboo/springcloud/controller/DepartmentController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-hystrix/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/controller/DepartmentController.java" />
@@ -196,8 +211,10 @@
         <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientServiceFallbackFactory.java" />
         <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/taboo/springcloud/MicroservicecloudConsumerDeptFeignApplication.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-hystrixdashboard/pom.xml" />
       </list>
     </option>
   </component>
@@ -223,7 +240,22 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-hystrixdashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-hystrixdashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-hystrixdashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -231,10 +263,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-31" />
-    <option name="y" value="63" />
+    <option name="x" value="57" />
+    <option name="y" value="108" />
     <option name="width" value="1346" />
-    <option name="height" value="653" />
+    <option name="height" value="674" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -245,8 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,105 +289,13 @@
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloud-consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.3.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.3.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.3.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.3.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.3.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.3.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.3.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-hystrixdashboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,7 +305,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="hashmap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/HashMap.class&#10;threadpoole&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;.giti&#9;FILE&#9;file://G:/CodingAttach/SpringCloudDemo/microservicecloud/.gitignore" />
+    <property name="SearchEverywhereHistoryKey" value="concurrentha&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;hashmap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/HashMap.class&#10;threadpoole&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;.giti&#9;FILE&#9;file://G:/CodingAttach/SpringCloudDemo/microservicecloud/.gitignore" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-consumer-dept-80" />
@@ -468,6 +408,10 @@
       <module name="microservicecloud-hystrix" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.taboo.springcloud.MicroservicecloudHystrixApplication" />
     </configuration>
+    <configuration name="MicroservicecloudHystrixdashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-hystrixdashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taboo.springcloud.MicroservicecloudHystrixdashboardApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -499,6 +443,7 @@
       <item itemvalue="Spring Boot.MicroservicecloudHystrixApplication" />
       <item itemvalue="Spring Boot.DepartmentProvider8001_Application" />
       <item itemvalue="Application.TabooRule" />
+      <item itemvalue="Spring Boot.MicroservicecloudHystrixdashboardApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -561,7 +506,9 @@
       <workItem from="1551277743517" duration="639000" />
       <workItem from="1551713093964" duration="92000" />
       <workItem from="1551790820376" duration="598000" />
-      <workItem from="1551871263906" duration="7526000" />
+      <workItem from="1551871263906" duration="7848000" />
+      <workItem from="1551965098962" duration="3149000" />
+      <workItem from="1552307287435" duration="4053000" />
     </task>
     <task id="LOCAL-00001" summary="添加日志描述">
       <created>1538141718275</created>
@@ -602,7 +549,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110204000" />
+    <option name="totallyTimeSpent" value="117728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -610,7 +557,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298969" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3290469" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="9" visible="true" weight="0.3290469" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -620,16 +567,15 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5972461" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32702237" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.36426118" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12908778" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12908778" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.29198185" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.31240544" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -637,6 +583,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32702237" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
@@ -666,68 +613,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/bind/annotation/PostMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/microservicecloud-consumer-dept-feign.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/taboo/springcloud/cfgbeans/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="21" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/BaiduNetdiskDownload/尚硅谷SpringCloud视频/codes/microservicecloud/microservicecloud-consumer-dept-feign/src/main/java/com/atguigu/springcloud/controller/DeptController_Consumer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/FeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/taboo/springcloud/service/impls/DepartmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/taboo/springcloud/controller/DepartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/AbstractExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
@@ -824,20 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/service/impls/DepartmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/mapper/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12-sources.jar!/com/netflix/hystrix/contrib/javanica/utils/FallbackMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -866,75 +737,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/resources/mybatis/mybatis.cfg.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/controller/DepartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
-          <folding>
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/taboo/springcloud/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="25" column="79" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/taboo/springcloud/controller/ConsumerFeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -945,41 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/taboo/springcloud/MicroservicecloudConsumerDeptFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-feign/1.3.1.RELEASE/spring-cloud-starter-feign-1.3.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/encoding/FeignClientEncodingProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -987,27 +761,366 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/HystrixAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.1.RELEASE/spring-cloud-netflix-eureka-client-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/mapper/DepartmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/service/impls/DepartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="462">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/src/main/java/com/taboo/springcloud/MicroservicecloudHystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="110">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/taboo/springcloud/MicroservicecloudConsumerDeptFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/taboo/springcloud/controller/ConsumerFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/entities/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/entities/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-feign/1.3.1.RELEASE/spring-cloud-starter-feign-1.3.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/1.5.9.RELEASE/spring-boot-starter-test-1.5.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.taboo.springcloud:microservicecloud-consumer-dept-feign:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.taboo.springcloud:microservicecloud-consumer-dept-feign:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.taboo.springcloud:microservicecloud-consumer-dept-feign:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.taboo.springcloud:microservicecloud-api:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.taboo.springcloud:microservicecloud-api:jar:0.0.1-SNAPSHOT/org.projectlombok:lombok:jar:1.16.18</node>
+            <node x="" y="">com.taboo.springcloud:microservicecloud-api:jar:0.0.1-SNAPSHOT/org.springframework.boot:spring-boot:jar:1.5.9.RELEASE</node>
+            <node x="" y="">com.taboo.springcloud:microservicecloud-api:jar:0.0.1-SNAPSHOT/org.springframework.boot:spring-boot:jar:1.5.9.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.23/org.apache.tomcat:tomcat-juli:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23/org.apache.tomcat:tomcat-annotations-api:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-core:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis:mybatis:jar:3.4.4</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.2.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-core:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-core:jar:9.5.0/org.jvnet:animal-sniffer-annotation:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-slf4j:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-slf4j:jar:9.5.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.archaius:archaius-core:jar:0.7.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.archaius:archaius-core:jar:0.7.4/com.google.code.findbugs:jsr305:jar:3.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-handler:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-common:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.1.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.1.RELEASE/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework:spring-test:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.3.1.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.49727763435813205" x="6437.832236049169" y="295.02731033486464" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7325">
+          <caret line="812" column="21" selection-start-line="812" selection-start-column="12" selection-end-line="812" selection-end-column="21" />
+          <folding>
+            <element signature="e#30335#30336#0" expanded="true" />
+            <element signature="e#30400#30401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrix/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="9" />
+          <caret line="24" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-hystrixdashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
         </state>
       </provider>
     </entry>

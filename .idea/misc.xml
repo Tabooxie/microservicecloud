@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/microservicecloud-eureka-7002/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-hystrixdashboard/pom.xml" />
       </list>
     </option>
   </component>

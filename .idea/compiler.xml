@@ -14,10 +14,12 @@
         <module name="microservicecloud-eureka-7002" />
         <module name="microservicecloud-eureka-7003" />
         <module name="microservicecloud-hystrix" />
+        <module name="microservicecloud-hystrixdashboard" />
         <module name="microservicecloud-provider-dept-8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hystrixdashboard" target="1.8" />
       <module name="microservicecloudproviderdept8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
