@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/microservicecloud-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-hystrixdashboard/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-config-3344/pom.xml" />
       </list>
     </option>
   </component>
