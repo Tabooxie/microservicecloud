@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-api" />
         <module name="microservicecloud-config-3344" />
+        <module name="microservicecloud-config-client" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloud-consumer-dept-feign" />
         <module name="microservicecloud-eureka-7001" />
@@ -22,6 +23,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hystrixdashboard" target="1.8" />
+      <module name="microservicecloud-config-client" target="1.8" />
+      <module name="microservicecloudconfigclient" target="1.8" />
       <module name="microservicecloudproviderdept8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>

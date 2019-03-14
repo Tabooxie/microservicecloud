@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8604ac-5c77-4feb-8011-c021ce19386b" name="Default" comment="设置actuator模块">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-3344/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/java/com/taboo/springcloud/MicroservicecloudConfig3344Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/java/com/taboo/springcloud/MicroservicecloudConfig3344Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/microservicecloud-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/microservicecloud-hystrixdashboard/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-config-3344/target/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-config-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,16 +53,34 @@
         <entry file="file://$PROJECT_DIR$/microservicecloud-config-3344/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-517">
-              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservicecloud-config-3344/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -111,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/taboo/springcloud/SpringbootCacheDemoApplication.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/taboo/springcloud/dao/DepartmentDao.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/taboo/springcloud/mapper/DepartmentDao.java" />
@@ -155,13 +174,14 @@
         <option value="$PROJECT_DIR$/microservicecloud-hystrixdashboard/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-hystrixdashboard/src/main/java/com/taboo/springcloud/MicroservicecloudHystrixdashboardApplication.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/java/com/taboo/springcloud/MicroservicecloudZuulGateway9527Application.java" />
         <option value="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-config-3344/src/main/java/com/taboo/springcloud/MicroservicecloudConfig3344Application.java" />
         <option value="$PROJECT_DIR$/microservicecloud-config-3344/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-config-3344/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-config-client/pom.xml" />
       </list>
     </option>
   </component>
@@ -187,7 +207,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-config-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservicecloud-config-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -216,6 +246,11 @@
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloud-config-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
@@ -270,7 +305,7 @@
     <property name="SearchEverywhereHistoryKey" value="ExtClassLoader&#9;PSI&#9;JAVA://sun.misc.Launcher.ExtClassLoader&#10;addWaiter&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer#addWaiter&#10;ReentrantLock &#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;sync&#9;PSI&#9;JAVA://com.sun.corba.se.impl.orbutil.concurrent.Sync&#10;concurrentha&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;hashmap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/HashMap.class&#10;threadpoole&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;.giti&#9;FILE&#9;file://G:/CodingAttach/SpringCloudDemo/microservicecloud/.gitignore" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-config-3344" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-config-client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -486,7 +521,7 @@
       <workItem from="1552568386462" duration="3388000" />
       <workItem from="1552571960526" duration="62000" />
       <workItem from="1552572068061" duration="649000" />
-      <workItem from="1552572753720" duration="1185000" />
+      <workItem from="1552572753720" duration="2190000" />
     </task>
     <task id="LOCAL-00001" summary="添加日志描述">
       <created>1538141718275</created>
@@ -527,7 +562,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137429000" />
+    <option name="totallyTimeSpent" value="138434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -535,7 +570,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298969" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3290469" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="9" visible="true" weight="0.3290469" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -551,7 +586,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.36426118" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40447503" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40447503" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.2647504" />
@@ -592,13 +627,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16280">
-          <caret line="812" column="21" selection-start-line="812" selection-start-column="12" selection-end-line="812" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/taboo/springcloud/service/interfaces/DepartmentClientServiceFallbackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -890,13 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -931,14 +952,28 @@
     <entry file="file://$PROJECT_DIR$/microservicecloud-config-3344/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-517">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-config-3344/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
         </state>
       </provider>
     </entry>
