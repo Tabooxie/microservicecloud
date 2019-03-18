@@ -5,4 +5,3 @@ spring:
       profile: dev
       label: master
       uri: http://config-3344.com:3344
-      enabled: true

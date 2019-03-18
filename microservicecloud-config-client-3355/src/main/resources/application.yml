@@ -1,6 +1,3 @@
 spring:
   application:
     name: microservicecloud-config-client
-  cloud:
-    config:
-      enabled: true
