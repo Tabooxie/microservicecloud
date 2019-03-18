@@ -1,4 +1,4 @@
-package com.taboo.springcloud;
+package com.taboo.springcloud.microservicecloud;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MicroservicecloudConfigClientApplicationTests {
+public class MicroservicecloudConfigClient3355ApplicationTests {
 
     @Test
     public void contextLoads() {

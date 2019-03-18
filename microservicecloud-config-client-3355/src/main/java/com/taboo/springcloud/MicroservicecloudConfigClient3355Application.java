@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroservicecloudConfigClientApplication {
+public class MicroservicecloudConfigClient3355Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroservicecloudConfigClientApplication.class, args);
+        SpringApplication.run(MicroservicecloudConfigClient3355Application.class, args);
     }
 
 }

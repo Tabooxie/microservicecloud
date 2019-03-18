@@ -5,8 +5,7 @@
     <file url="file://$PROJECT_DIR$/microservicecloud-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-config-3344" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-config-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicecloud-config-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicecloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-client-3355" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7001" charset="UTF-8" />
@@ -16,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/microservicecloud-hystrixdashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/microservicecloud-config-client.yml" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

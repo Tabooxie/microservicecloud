@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-api" />
         <module name="microservicecloud-config-3344" />
-        <module name="microservicecloud-config-client" />
+        <module name="microservicecloud-config-client-3355" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloud-consumer-dept-feign" />
         <module name="microservicecloud-eureka-7001" />
