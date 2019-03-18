@@ -1,3 +1,6 @@
 spring:
   application:
     name: microservicecloud-config-client
+  cloud:
+    config:
+      profile: dev
