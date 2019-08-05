@@ -5,7 +5,6 @@ import com.taboo.springcloud.mapper.DepartmentMapper;
 import com.taboo.springcloud.service.interfaces.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
