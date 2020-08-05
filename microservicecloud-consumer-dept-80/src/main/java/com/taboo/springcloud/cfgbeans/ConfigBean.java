@@ -10,6 +10,7 @@ public class ConfigBean {
     @Bean
     @LoadBalanced
     public RestTemplate getRestTemplate(){
+        System.out.println("");
         return new RestTemplate();
     }
 }
