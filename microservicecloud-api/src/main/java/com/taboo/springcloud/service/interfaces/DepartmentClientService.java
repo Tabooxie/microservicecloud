@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
+/**
+ * @author taboo
+ */
 @FeignClient(value = "MICROSERVICECLOUDDEPT", fallbackFactory = DepartmentClientServiceFallbackFactory.class)
 public interface DepartmentClientService {
 

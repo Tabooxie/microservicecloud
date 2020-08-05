@@ -4,10 +4,10 @@
 
 <mapper namespace="com.taboo.springcloud.mapper.DepartmentMapper">
 
-    <select id="findById" resultType="Department" parameterType="Integer">
+    <select id="findById" resultType="com.taboo.springcloud.entities.Department" parameterType="Integer">
 		select id,departmentName,dbSource from department where id=#{id};
 	</select>
-    <select id="findAll" resultType="Department">
+    <select id="findAll" resultType="com.taboo.springcloud.entities.Department">
 		select id,departmentName,dbSource from department;
 	</select>
     <insert id="addDepartment" parameterType="Department">

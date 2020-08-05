@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+/**
+ * @author taboo
+ */
 @Mapper
 @Component
 public interface DepartmentMapper {

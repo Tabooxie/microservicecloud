@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 public class DepartmentController {
-    private static transient Logger logger = LoggerFactory.getLogger(DepartmentController.class);
+    private static final Logger logger = LoggerFactory.getLogger(DepartmentController.class);
     @Autowired
     DepartmentService departmentService;
 
