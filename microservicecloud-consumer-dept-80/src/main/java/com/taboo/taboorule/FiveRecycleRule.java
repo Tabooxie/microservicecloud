@@ -14,8 +14,10 @@ import java.util.concurrent.ThreadLocalRandom;
 @NoArgsConstructor
 @Component
 public class FiveRecycleRule extends AbstractLoadBalancerRule {
-    private int total = 0;          //当前服务器被调用的次数
-    private int currentIndex = 0;   //当前被调用的服务器ID
+    //当前服务器被调用的次数
+    private int total = 0;
+    //当前被调用的服务器ID
+    private int currentIndex = 0;
 
     public Server choose(ILoadBalancer lb, Object key) {
         if (lb == null) {
